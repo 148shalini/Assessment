@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'https://assessmentback-iujx84tv7-148shalinis-projects.vercel.app/api/profile';
+const API_URL = 'https://assessment-nu-wheat.vercel.app/api/profile';
 //http://localhost:5000/api/profile
 
 const getProfile = async () => {
