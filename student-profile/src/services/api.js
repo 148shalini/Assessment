@@ -1,7 +1,8 @@
 // src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/profile';
+const API_URL = 'http://localhost:5000/api/profile/api/profile';
+//http://localhost:5000/api/profile
 
 const getProfile = async () => {
   const response = await axios.get(API_URL);
